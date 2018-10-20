@@ -46,7 +46,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SportActivity::class.java)
             startActivity(intent)
         }
-
-        var test = 1
     }
 }
