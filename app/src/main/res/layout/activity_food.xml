@@ -7,4 +7,14 @@
         android:layout_height="match_parent"
         tools:context=".FoodActivity">
 
+    <ImageView
+            android:id="@+id/cakeGif" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="125dp"
+            android:layout_marginStart="125dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="125dp"
+            android:layout_marginRight="125dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="Cake gif" app:srcCompat="@drawable/cake" android:scaleType="fitXY"
+            android:layout_height="0dp" android:layout_width="0dp" android:layout_marginBottom="375dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 </android.support.constraint.ConstraintLayout>
